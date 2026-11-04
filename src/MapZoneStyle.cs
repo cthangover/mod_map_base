@@ -162,7 +162,7 @@ namespace Cthangover.Mods.Map
 
         private static Texture2D BuildHatchTexture()
         {
-            var image = Image.CreateEmpty(HatchTile, HatchTile, false, Image.Format.Rgba8);
+            using var image = Image.CreateEmpty(HatchTile, HatchTile, false, Image.Format.Rgba8);
             for (var y = 0; y < HatchTile; y++)
             {
                 for (var x = 0; x < HatchTile; x++)
