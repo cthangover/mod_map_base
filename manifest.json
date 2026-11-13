@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "author": "ct",
   "description": "World map engine: a full-screen picture of the world with places to travel between; scenarios open, close, hide and reveal them as the story goes.",
-  "category": "engine, library",
+  "categories": ["engine", "library"],
   "sources": [
     "src/**/*.cs"
   ],
