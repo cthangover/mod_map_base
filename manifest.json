@@ -1,7 +1,7 @@
 {
   "id": "map_base",
   "name": "World Map Engine",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "ct",
   "description": "World map engine: a full-screen picture of the world with places to travel between; scenarios open, close, hide and reveal them as the story goes.",
   "category": "engine, library",
@@ -9,7 +9,7 @@
     "src/**/*.cs"
   ],
   "test_sources": ["tests/*.cs"],
-  "depends": ["ui_base>=1"],
+  "depends": ["ui_base>=0.1.0"],
   "ui": [
     {
       "id": "map",
